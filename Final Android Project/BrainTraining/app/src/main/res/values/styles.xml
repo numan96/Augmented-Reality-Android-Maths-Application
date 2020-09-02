@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen"/>
+        <!-- Customize your theme here. -->
+
+    <style name="TileButton">
+    <item name="android:layout_width">@dimen/tile_size</item>
+    <item name="android:layout_height">@dimen/tile_size</item>
+    <item name="android:layout_margin">@dimen/tile_margin</item>
+    <item name="android:padding">@dimen/tile_padding</item>
+    <item name="android:scaleType">centerCrop</item>
+    </style>
+	<style name="UnityThemeSelector" parent="android:Theme.Light.NoTitleBar.Fullscreen">
+</style>
+	
+	
+</resources>

@@ -1,0 +1,44 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ResetPoints.cs">
+    <Files>
+      <File FileName="Assets\score.cs" Line="1" Column="1" />
+      <File FileName="Assets\AndroidReceiver.cs" Line="1" Column="1" />
+      <File FileName="Assets\colour4.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbMinusCorrect9.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbMinusCorrect8.cs" Line="1" Column="1" />
+      <File FileName="Assets\VideoPlaybackController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Vuforia Video Playback\Scripts\VideoPlaybackBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbMinusCorrect7.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbMinusCorrect1.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbCorrect.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbMinusCorrect10.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbMinusCorrect2.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbMinusCorrect3.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbMinusCorrect4.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbMinusCorrect5.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbMinusCorrect6.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbMinusWrongQ1.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbMinusWrongQ10.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbMinusWrongQ10p2.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbPlusCorrect1.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbPlusCorrect2.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbPlusCorrect3.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbPlusCorrect4.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbPlusWrongQ5.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbTimesCorrect10.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbTimesCorrect3.cs" Line="1" Column="1" />
+      <File FileName="Assets\ImageTargetPlayAudio.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbTimesCorrect2.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbTimesCorrect4.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbPlusWrongQ9p2.cs" Line="1" Column="1" />
+      <File FileName="Assets\vbPlusWrongQ8p2.cs" Line="1" Column="1" />
+      <File FileName="Assets\DataLoader.cs" Line="1" Column="1" />
+      <File FileName="Assets\ResetPoints.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

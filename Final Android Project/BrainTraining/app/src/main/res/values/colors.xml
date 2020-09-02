@@ -1,0 +1,10 @@
+<resources>
+    <color name="field_color">#df013a</color>
+    <color name="border_color">#F5A9BC</color>
+    <color name="dark_border_color">#9d9898</color>
+    <color name="available_color">#7fbf7f</color>
+    <color name="blue_color">#7f7fff</color>
+    <color name="gray_color">#b45151</color>
+    <color name="purple_color">#7f007f</color>
+    <color name="red_color">#ff7f7f</color>
+</resources>

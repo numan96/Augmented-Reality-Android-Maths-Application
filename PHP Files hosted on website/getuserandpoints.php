@@ -1,0 +1,24 @@
+<?php
+	define('HOST','213.171.200.84');
+	define('USER','w1480440');
+	define('PASS','Mohammed1');
+	define('DB','FYPDB');
+	
+
+
+	$con = mysqli_connect(HOST,USER,PASS,DB) or die('Unable to Connect');
+
+		$classroomid = $_POST['classroomid'];
+	
+	$sql= "SELECT username, points FROM fyp_students WHERE classroomid='$classroomid' ORDER BY points DESC";
+	
+	$compare = mysqli_query($con,$sql);
+	
+	
+ while ($row = mysqli_fetch_assoc($compare)) {
+	 echo "User: " . $row['username']. "|Points: " . $row['points']. ";";
+	 
+}
+
+ 
+?>

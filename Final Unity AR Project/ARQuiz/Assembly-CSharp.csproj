@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{A42141D2-3EAC-75FA-E38F-ED4F77F6B6DB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;VUFORIA_ANDROID_SETTINGS;CROSS_PLATFORM_INPUT;MOBILE_INPUT;VUFORIA_SAMPLE_ORIENTATION_SETTINGS;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>B:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>B:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AndroidReceiver.cs" />
+     <Compile Include="Assets\CapturePanorama\CapturePanorama.cs" />
+     <Compile Include="Assets\CapturePanorama\Scripts\Icosphere.cs" />
+     <Compile Include="Assets\CapturePanorama\Scripts\ImageEffectCopyCamera.cs" />
+     <Compile Include="Assets\CapturePanorama\Scripts\ReadPanoConfig.cs" />
+     <Compile Include="Assets\CapturePanorama\Scripts\ScreenFadeControl.cs" />
+     <Compile Include="Assets\Common\CameraSettings.cs" />
+     <Compile Include="Assets\Common\FrameRateSettings.cs" />
+     <Compile Include="Assets\Common\InitErrorHandler.cs" />
+     <Compile Include="Assets\Common\MenuAnimator.cs" />
+     <Compile Include="Assets\Common\MenuOptions.cs" />
+     <Compile Include="Assets\Common\SplashAbout\AboutScreen.cs" />
+     <Compile Include="Assets\Common\SplashAbout\AsyncSceneLoader.cs" />
+     <Compile Include="Assets\Common\SplashAbout\LoadingScreen.cs" />
+     <Compile Include="Assets\Common\TapHandler.cs" />
+     <Compile Include="Assets\Common\TrackableSettings.cs" />
+     <Compile Include="Assets\DataLoader.cs" />
+     <Compile Include="Assets\ImageTargetPlayAudio.cs" />
+     <Compile Include="Assets\MinusvbScript.cs" />
+     <Compile Include="Assets\ResetPoints.cs" />
+     <Compile Include="Assets\Scripts\PlayVideo.cs" />
+     <Compile Include="Assets\Scripts\TrackableEventHandler.cs" />
+     <Compile Include="Assets\Scripts\VideoPlaybackMenuOptions.cs" />
+     <Compile Include="Assets\Scripts\VideoPlaybackTapHandler.cs" />
+     <Compile Include="Assets\ShowAndroidData.cs" />
+     <Compile Include="Assets\TimesvbScript.cs" />
+     <Compile Include="Assets\VideoPlaybackController.cs" />
+     <Compile Include="Assets\Vuforia Video Playback\Scripts\VideoPlaybackBehaviour.cs" />
+     <Compile Include="Assets\Vuforia Video Playback\Scripts\VideoPlayerHelper.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultSmartTerrainEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\GLErrorHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\HideExcessAreaBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\AndroidUnityPlayer.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\ComponentFactoryStarterBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\IOSUnityPlayer.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\VuforiaBehaviourComponentFactory.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\WSAUnityPlayer.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\MaskOutBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\MultiTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ObjectTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\PropBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ReconstructionBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ReconstructionFromTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\SurfaceBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TextRecoBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TurnOffBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TurnOffWordBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\UserDefinedTargetBuildingBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Utilities\VRIntegrationHelper.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VideoBackgroundBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VirtualButtonBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VuMarkBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VuforiaBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VuforiaConfiguration.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VuforiaRuntimeInitialization.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
+     <Compile Include="Assets\WR_wHiteRabbiT-sTudio\WRFramework\Unity\Extensions\VectorExtensions.cs" />
+     <Compile Include="Assets\WR_wHiteRabbiT-sTudio\WRFramework\Unity\UI\GUIHelper.cs" />
+     <Compile Include="Assets\WR_wHiteRabbiT-sTudio\WRFramework\Unity\Util\Logo.cs" />
+     <Compile Include="Assets\colour.cs" />
+     <Compile Include="Assets\colour2.cs" />
+     <Compile Include="Assets\colour3.cs" />
+     <Compile Include="Assets\colour4.cs" />
+     <Compile Include="Assets\hideCorrect.cs" />
+     <Compile Include="Assets\hideIncorrect.cs" />
+     <Compile Include="Assets\plusvbScript.cs" />
+     <Compile Include="Assets\score.cs" />
+     <Compile Include="Assets\vbCorrect.cs" />
+     <Compile Include="Assets\vbMinusCorrect1.cs" />
+     <Compile Include="Assets\vbMinusCorrect10.cs" />
+     <Compile Include="Assets\vbMinusCorrect2.cs" />
+     <Compile Include="Assets\vbMinusCorrect3.cs" />
+     <Compile Include="Assets\vbMinusCorrect4.cs" />
+     <Compile Include="Assets\vbMinusCorrect5.cs" />
+     <Compile Include="Assets\vbMinusCorrect6.cs" />
+     <Compile Include="Assets\vbMinusCorrect7.cs" />
+     <Compile Include="Assets\vbMinusCorrect8.cs" />
+     <Compile Include="Assets\vbMinusCorrect9.cs" />
+     <Compile Include="Assets\vbMinusWrongQ1.cs" />
+     <Compile Include="Assets\vbMinusWrongQ10.cs" />
+     <Compile Include="Assets\vbMinusWrongQ10p2.cs" />
+     <Compile Include="Assets\vbMinusWrongQ1p2.cs" />
+     <Compile Include="Assets\vbMinusWrongQ2.cs" />
+     <Compile Include="Assets\vbMinusWrongQ2p2.cs" />
+     <Compile Include="Assets\vbMinusWrongQ3.cs" />
+     <Compile Include="Assets\vbMinusWrongQ3p2.cs" />
+     <Compile Include="Assets\vbMinusWrongQ4.cs" />
+     <Compile Include="Assets\vbMinusWrongQ4p2.cs" />
+     <Compile Include="Assets\vbMinusWrongQ5.cs" />
+     <Compile Include="Assets\vbMinusWrongQ5p2.cs" />
+     <Compile Include="Assets\vbMinusWrongQ6.cs" />
+     <Compile Include="Assets\vbMinusWrongQ6p2.cs" />
+     <Compile Include="Assets\vbMinusWrongQ7.cs" />
+     <Compile Include="Assets\vbMinusWrongQ7p2.cs" />
+     <Compile Include="Assets\vbMinusWrongQ8.cs" />
+     <Compile Include="Assets\vbMinusWrongQ8p2.cs" />
+     <Compile Include="Assets\vbMinusWrongQ9.cs" />
+     <Compile Include="Assets\vbMinusWrongQ9p2.cs" />
+     <Compile Include="Assets\vbPlusCorrect1.cs" />
+     <Compile Include="Assets\vbPlusCorrect10.cs" />
+     <Compile Include="Assets\vbPlusCorrect2.cs" />
+     <Compile Include="Assets\vbPlusCorrect3.cs" />
+     <Compile Include="Assets\vbPlusCorrect4.cs" />
+     <Compile Include="Assets\vbPlusCorrect5.cs" />
+     <Compile Include="Assets\vbPlusCorrect6.cs" />
+     <Compile Include="Assets\vbPlusCorrect7.cs" />
+     <Compile Include="Assets\vbPlusCorrect8.cs" />
+     <Compile Include="Assets\vbPlusCorrect9.cs" />
+     <Compile Include="Assets\vbPlusWrongQ1.cs" />
+     <Compile Include="Assets\vbPlusWrongQ10.cs" />
+     <Compile Include="Assets\vbPlusWrongQ10p2.cs" />
+     <Compile Include="Assets\vbPlusWrongQ1p2.cs" />
+     <Compile Include="Assets\vbPlusWrongQ2.cs" />
+     <Compile Include="Assets\vbPlusWrongQ2p2.cs" />
+     <Compile Include="Assets\vbPlusWrongQ3.cs" />
+     <Compile Include="Assets\vbPlusWrongQ3p2.cs" />
+     <Compile Include="Assets\vbPlusWrongQ4.cs" />
+     <Compile Include="Assets\vbPlusWrongQ4p2.cs" />
+     <Compile Include="Assets\vbPlusWrongQ5.cs" />
+     <Compile Include="Assets\vbPlusWrongQ5p2.cs" />
+     <Compile Include="Assets\vbPlusWrongQ6.cs" />
+     <Compile Include="Assets\vbPlusWrongQ6p2.cs" />
+     <Compile Include="Assets\vbPlusWrongQ7.cs" />
+     <Compile Include="Assets\vbPlusWrongQ7p2.cs" />
+     <Compile Include="Assets\vbPlusWrongQ8.cs" />
+     <Compile Include="Assets\vbPlusWrongQ8p2.cs" />
+     <Compile Include="Assets\vbPlusWrongQ9.cs" />
+     <Compile Include="Assets\vbPlusWrongQ9p2.cs" />
+     <Compile Include="Assets\vbTimesCorrect10.cs" />
+     <Compile Include="Assets\vbTimesCorrect2.cs" />
+     <Compile Include="Assets\vbTimesCorrect3.cs" />
+     <Compile Include="Assets\vbTimesCorrect4.cs" />
+     <Compile Include="Assets\vbTimesCorrect5.cs" />
+     <Compile Include="Assets\vbTimesCorrect6.cs" />
+     <Compile Include="Assets\vbTimesCorrect7.cs" />
+     <Compile Include="Assets\vbTimesCorrect8.cs" />
+     <Compile Include="Assets\vbTimesCorrect9.cs" />
+     <Compile Include="Assets\vbTimesWrongQ10.cs" />
+     <Compile Include="Assets\vbTimesWrongQ10p2.cs" />
+     <Compile Include="Assets\vbTimesWrongQ2.cs" />
+     <Compile Include="Assets\vbTimesWrongQ2p2.cs" />
+     <Compile Include="Assets\vbTimesWrongQ3.cs" />
+     <Compile Include="Assets\vbTimesWrongQ3p2.cs" />
+     <Compile Include="Assets\vbTimesWrongQ4.cs" />
+     <Compile Include="Assets\vbTimesWrongQ4p2.cs" />
+     <Compile Include="Assets\vbTimesWrongQ5.cs" />
+     <Compile Include="Assets\vbTimesWrongQ5p2.cs" />
+     <Compile Include="Assets\vbTimesWrongQ6.cs" />
+     <Compile Include="Assets\vbTimesWrongQ6p2.cs" />
+     <Compile Include="Assets\vbTimesWrongQ7.cs" />
+     <Compile Include="Assets\vbTimesWrongQ7p2.cs" />
+     <Compile Include="Assets\vbTimesWrongQ8.cs" />
+     <Compile Include="Assets\vbTimesWrongQ8p2.cs" />
+     <Compile Include="Assets\vbTimesWrongQ9.cs" />
+     <Compile Include="Assets\vbTimesWrongQ9p2.cs" />
+     <Compile Include="Assets\vbWrong.cs" />
+     <Compile Include="Assets\vbWrong2.cs" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Kitten\Shaders\Normal-Diffuse.shader" />
+     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\CapturePanorama\Compute Shaders\ConvertPanoramaShader.compute" />
+     <None Include="Assets\Plugins\iOS\VuforiaMediaSource\src\VideoPlayerWrapper.mm.txt" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\AR1.xml" />
+     <None Include="Assets\CapturePanorama\README.txt" />
+     <None Include="Assets\Kitten\Shaders\Alpha-Diffuse.shader" />
+     <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\readme_SDK.txt" />
+     <None Include="Assets\Plugins\Android\VuforiaMediaSource\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\VuforiaMediaSource\build.xml" />
+     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\CapturePanorama\Compute Shaders\TextureToBufferShader.compute" />
+     <None Include="Assets\StreamingAssets\QCAR\StonesAndChips.xml" />
+     <None Include="Assets\Plugins\Android\VuforiaMediaSource\README.txt" />
+     <None Include="Assets\license_3rdpartynotice.txt" />
+     <None Include="Assets\CapturePanorama\Shaders\Unlit Transparent HUD.shader" />
+     <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
+     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\StreamingAssets\QCAR\ScanAR.xml" />
+     <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
+     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\Plugins\iOS\VuforiaMediaSource\src\VideoPlayerHelper.mm.txt" />
+     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\StreamingAssets\QCAR\QuizAR.xml" />
+     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Plugins\iOS\VuforiaMediaSource\README.txt" />
+     <None Include="Assets\WR_wHiteRabbiT-sTudio\Scene\DancingRabbit\ReadMe.txt" />
+     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+     <None Include="Assets\CapturePanorama\Compute Shaders\ConvertPanoramaStereoShader.compute" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>B:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>B:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>B:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>B:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>B:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>B:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>B:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing">
+ <HintPath>B:/Desktop/FinalYearProject/Final Year Project Submission w1480440/Final Unity AR Project/ARQuiz/Assets/CapturePanorama/Managed Plugins/System.Drawing.dll</HintPath>
+ </Reference>
+ <Reference Include="Vuforia.UnityExtensions">
+ <HintPath>B:/Desktop/FinalYearProject/Final Year Project Submission w1480440/Final Unity AR Project/ARQuiz/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{176EC99D-0AF6-4C8C-D2F4-03C9AF57D33F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{9627BFA3-1065-F4E2-788E-4ADFC2C3AF20}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
